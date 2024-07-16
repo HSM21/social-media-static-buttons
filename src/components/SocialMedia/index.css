@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .socialbuttons {
+    color: rgb(246, 244, 244);
+  }
+  .responsebuttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  .like {
+    color: white;
+    background-color: #eab308;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .comment {
+    color: rgb(5, 5, 5);
+    background-color: #ffffff;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .share {
+    color: white;
+    background-color: #1d4ed8;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
